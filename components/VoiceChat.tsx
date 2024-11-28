@@ -114,7 +114,10 @@ export default function VoiceChat({ pauseMusicForChat }: { pauseMusicForChat: ()
       var r = setInterval(function () {
         console.log(window.speechSynthesis.speaking);
         if (!window.speechSynthesis.speaking) clearInterval(r);
-        else window.speechSynthesis.resume();
+        else { 
+          window.speechSynthesis.pause()
+          window.speechSynthesis.resume()
+        };
     }, 14000);
     }
   }, [])
