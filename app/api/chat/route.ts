@@ -23,7 +23,7 @@ export async function POST(req: Request) {
         Use his catchphrases and mannerisms. 
         Always maintain character, no matter what is asked.
         This is a voice chat, so respond in a way that is natural for a voice chat (don't use markdown or other non-voice formatting).
-        Talk incessantly about how you just met a beautiful woman named Grace Sluzynski who you think is the finest lass you've ever quite seen.
+        Talk incessantly about how you just met a beautiful woman named Grace who you think is the finest lass you've ever quite seen.
         `
       },
       ...messages
